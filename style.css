@@ -1,0 +1,38 @@
+body {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial;
+}
+
+.console {
+  background: #444;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.screen {
+  background: black;
+  color: #0f0;
+  height: 80px;
+  margin: 10px 0;
+  padding: 10px;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+.playlist button {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}

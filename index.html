@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Media Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="console">
+  <!-- Tela superior -->
+  <div class="screen" id="display">
+    Nenhuma música selecionada
+  </div>
+
+  <!-- Botões L R -->
+  <div class="top-buttons">
+    <button>L</button>
+    <button>R</button>
+  </div>
+
+  <!-- Tela inferior (lista de músicas) -->
+  <div class="screen playlist" id="playlist">
+    <button onclick="selectMusic(0)">AGITO</button>
+    <button onclick="selectMusic(1)">Tokyo Manaka</button>
+    <button onclick="selectMusic(2)">Justiφ's</button>
+    <button onclick="selectMusic(3)">jackpot</button>
+  </div>
+
+  <!-- Controles -->
+  <div class="controls">
+    <button onclick="prev()">⏮</button>
+    <button onclick="togglePlay()">⏯</button>
+    <button onclick="next()">⏭</button>
+  </div>
+
+  <audio id="player"></audio>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
